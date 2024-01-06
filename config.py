@@ -16,8 +16,8 @@ log_qrup = -
 startmesaj = "\n\nMən qrupda bütün istifadəçiləri çağırmaq üçün tağ botuyam 🥰\n\nMəni qrupa əlavə edin sonra admin edərək tağ prosesi başlada bilərsən 👀"
 komutlar = "» /tag > 5 nəfərlik tağ edərəm 🙊\n\n» /tektag > Təkli tağ edərəm 🦦\n\n» /atag > Qrup adminlərini tağ edərəm 😁\n\n» /etag > Emojilər ilə tağ edərəm 🥰\n\n» /stag > Maraqlı sözlərlə tağ edərəm 😍\n\n» /cancel > Tağ prosesi dayandıraram 👀"
 qrupstart = "Mən işləyirəm 🥰\n\nBot əmrləri öyrənmək üçün şəxsimdə mənə yazın 👀"
-support = "https://t.me/"
-sahib = "https://t.me/"
+support = "https://t.me/PalmasBotsSupport"
+sahib = "https://t.me/thisisgalka"
 
 #
 # samilben 
