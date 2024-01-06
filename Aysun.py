@@ -57,9 +57,9 @@ async def start(event):
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
                       [
-                       Button.url('📚 Əmrlər', f'https://t.me/'),
-                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/')],
-                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/')]
+                       Button.url('📚 Əmrlər', f'https://t.me/PalmasBots'),
+                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/Thisisgalka')],
+                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')]
                     ),
                     link_preview=False)
 
@@ -75,9 +75,9 @@ async def handler(event):
      await event.edit(f"{ad} {startmesaj}", buttons=(
                       [
                        Button.url('➕ Məni Qrupa Əlavə Et ➕', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url("📚 Əmrlər", f'https://t.me/'),
-                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/')]
-                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/')]
+                      [Button.url("📚 Əmrlər", f'https://t.me/PalmasBots'),
+                       Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/Thisisgalka')]
+                       [Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')]
                     ),
                     link_preview=False)
 
@@ -86,8 +86,8 @@ async def handler(event):
 async def handler(event):
     await event.edit(f"{komutlar}", buttons=(
                       [
-                      Button.url('💬 Söhbət Qrupu', f'https://t.me/'),
-                      Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/')
+                      Button.url('💬 Söhbət Qrupu', f'https://t.me/MedusaSohbet'),
+                      Button.url('👨🏻‍💻 Bot Sahibi', f'https://t.me/thisisgalka')
                       ],
                       [
                       Button.inline("🔙 Geri", data="start"),
@@ -125,7 +125,7 @@ async def mentionall(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                      Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                      Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   ) 
@@ -139,7 +139,7 @@ async def mentionall(event):
         await event.respond("Tağ prosesini dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   )
@@ -184,7 +184,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   ) 
@@ -198,7 +198,7 @@ async def mentionalladmin(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   )
@@ -243,7 +243,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   ) 
@@ -257,7 +257,7 @@ async def tektag(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   )
@@ -317,7 +317,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   ) 
@@ -331,7 +331,7 @@ async def etag(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   )
@@ -426,7 +426,7 @@ async def stag(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   ) 
@@ -492,7 +492,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "Tağ prosesini başlatdım 😍",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   ) 
@@ -506,7 +506,7 @@ async def rtag(event):
         await event.respond("Tağ prosesi dayandırdım 👀",
                     buttons=(
                       [
-                       Button.url('✅ Rəsmi Kanal', f'https://t.me/')
+                       Button.url('✅ Rəsmi Kanal', f'https://t.me/PalmasBots')
                       ]
                     )
                   )
@@ -521,6 +521,6 @@ async def rtag(event):
 ###
 
 
-print(">> Bot işləyir narahat olmayın 🚀 @ məlumat üçün <<")
+print(">> Bot işləyir narahat olmayın 🚀 @Thisisgalka məlumat üçün <<")
 client.run_until_disconnected()
 run_until_disconnected()
